@@ -171,7 +171,7 @@ class Blog extends BaseController
         $post = $model->find($id);
 
         $data = [
-            "meta_title" => $post["post_title"],
+            "meta_title" => "Edit Post",
             "title" => $post["post_title"],
             "post" => $post
         ];

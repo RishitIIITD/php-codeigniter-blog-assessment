@@ -15,7 +15,7 @@
             </div>
             <div class="form-group">
                 <label for="post_content">Content</label>
-                <textarea class="form-control" name="post_content" id="post_content" rows="3"><?= $post["post_content"] ?></textarea>
+                <textarea class="form-control" name="post_content" id="post_content" rows="10"><?= $post["post_content"] ?></textarea>
             </div>
             <div class="form-group">
                 <button class="btn btn-success btn-sm">Update</button>

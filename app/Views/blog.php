@@ -7,8 +7,6 @@
 <h1><?= $title ?></h1> <!-- dynamic title -->
 
 <div class="row">
-    <?= $this->include("widgets/sidebar") ?>
-    <!-- add the sidebar widget -->
     <div class="col-12 col-sm-9">
         <div class="row">
             <?php foreach ($posts as $post) : ?>

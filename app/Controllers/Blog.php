@@ -75,6 +75,19 @@ class Blog extends BaseController
         return view('display_post', $data);
     }
 
+    public function admin(){
+        $model = new BlogModel();
+        $posts = $model->findAll();
+
+        $data = [
+            "meta_title" => "Welcome, Admin!!",
+            "title" => "Admin Panel",
+            "posts" => $posts
+        ];
+
+        return view('admin_panel', $data);
+    }
+
     public function post($id)
     {
         $model = new BlogModel();       // instantiate a new BlogModel object

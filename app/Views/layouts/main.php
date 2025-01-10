@@ -29,6 +29,9 @@ use CodeIgniter\CodeIgniter;
                         <li class="nav-item">
                             <a class="nav-link" href="/citest/public/blog/post">Post</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/citest/public/blog/admin">Admin</a>
+                        </li>
                     </ul>
                 </div>
             </div>

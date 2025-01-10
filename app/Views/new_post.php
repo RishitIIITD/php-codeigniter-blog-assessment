@@ -10,6 +10,10 @@
     <div class="col-12 col-md-8 offset-md-2">
         <form method="post" action="/citest/public/blog/new">
             <div class="form-group">
+                <label for="post_author">Author Name</label>
+                <input type="text" name="post_author" id="post_author" class="form-control">
+            </div>
+            <div class="form-group">
                 <label for="post_title">Title</label>
                 <input type="text" name="post_title" id="post_title" class="form-control">
             </div>

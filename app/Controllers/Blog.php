@@ -112,8 +112,8 @@ class Blog extends BaseController
 
     public function new(){
         $data = [
-            "meta_title" => "New Post",
-            "title" => "Create new Post",
+            "meta_title" => "Create new Post",
+            "title" => "New Post",
         ];
 
         // Load the database

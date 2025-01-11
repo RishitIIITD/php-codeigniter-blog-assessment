@@ -4,7 +4,7 @@
 <?= $this->section("content") ?>
 <!-- Load the content section -->
 
-<h1><?= $title ?></h1> <!-- dynamic title -->
+<h1><?= $meta_title ?></h1> <!-- dynamic title -->
 
 <div class="row">
     <div class="col-12 col-md-8 offset-md-2">

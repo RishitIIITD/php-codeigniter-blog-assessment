@@ -1,4 +1,4 @@
-<?= $this->extend("layouts/main") ?>
+<?= $this->extend("layouts/admin_main") ?>
 <!-- Load the layout first -->
 
 <?= $this->section("content") ?>

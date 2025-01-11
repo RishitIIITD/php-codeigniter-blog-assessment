@@ -5,7 +5,7 @@
         <div class="card-body px-4">
           <h5 class="card-title"><?= $title ?></h5>
           <p class="card-text">Author: <?= $author ?></p>
-          <p class="card-text"><small class="text-muted">Posted on: <?= $publication_date ?></small></p>
+          <p class="card-text"><small class="text-muted">Published on: <?= $publication_date ?></small></p>
           <p class="card-text"><?= $content ?></p>
           <a href="/citest/public/blog/display/<?= $id ?>" class="btn btn-primary">Read more</a>
         </div>

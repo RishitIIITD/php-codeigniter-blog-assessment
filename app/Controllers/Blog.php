@@ -119,28 +119,10 @@ class Blog extends BaseController
         // Load the database
         $db = \Config\Database::connect();
         
-        // Check if the table exists
-        if ($db->tableExists('posts')) {
-            echo "Table exists!";
-        } else {
-            echo "Table does not exist!";
-        }
-        echo "<br>";
-
-        echo "Request Method: ";
-        echo $this->request->getMethod();
-        echo "<br>";
-        
         // if the form is submitted (posted)
         if ($this->request->getMethod() == "POST") {
-            echo "POST method called";
             // instantiate a new BlogModel object
             $model = new BlogModel();
-
-            // Debugging: Print the POST data
-            echo '<pre>';
-            print_r($_POST);
-            echo '</pre>';
 
             // Save the data from the form
             if ($model->save($_POST)) {
